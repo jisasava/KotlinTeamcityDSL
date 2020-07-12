@@ -33,6 +33,10 @@ project {
 object KotlinTeamcityDSLDevelop : BuildType({
     name = "KotlinTeamcityDSL_Develop"
 
+    params {
+        param("env.CA", "true")
+    }
+
     vcs {
         root(DslContext.settingsRoot)
     }
