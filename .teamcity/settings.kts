@@ -32,8 +32,4 @@ project {
 
 object KotlinTeamcityDSLAndroid : Project({
     name = "KotlinTeamcityDSL-android"
-
-    params {
-        param("env.CI", "true")
-    }
 })
